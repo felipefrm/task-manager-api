@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
-    "dev": "nodemon src/index.js",
-    "mongodb": "Users/Felipe` Melo/mongodb/bin/mongod.exe --dbpath=/Users/Felipe` Melo/mongodb-data"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
@@ -15,11 +14,11 @@
     "bcryptjs": "^2.4.3",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
-    "mongodb": "^3.5.9",
-    "mongoose": "^5.9.24",
-    "validator": "^13.1.1"
+    "mongodb": "^3.6.0",
+    "mongoose": "^5.9.28",
+    "validator": "^10.11.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "nodemon": "^1.19.4"
   }
 }
